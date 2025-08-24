@@ -2,3 +2,10 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+header img {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px; /* Ajusta el tamaño que necesites */
+  height: auto;
+}
