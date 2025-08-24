@@ -1,8 +1,7 @@
 title: <p align="center"> Augusto Dos Santos </p>
 
 logo: "/images/picture.png?raw=true" 
-
-logo_class: "center-logo" 
+logo_style: "display: block; margin: 0 auto;" 
 
 description:
   <p align="center">
