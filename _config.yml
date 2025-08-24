@@ -1,6 +1,7 @@
 title: <p align="center"> Augusto Dos Santos </p>
 
-logo: "/images/picture.png?raw=true&s=50"  # s = size
+logo: "/images/picture.png?raw=true"
+logo_size: "100x50"  # Campo adicional para especificar tamaño
 
 description:
   <p align="center">
