@@ -1,108 +1,193 @@
 # Portfolio
 ---
-## Natural Language Processing
+## Análisis de Datos y Business Intelligence
 
-### CS224n: Natural Language Processing with Deep Learning
+### Análisis de Ventas E-commerce: Dashboard Interactivo en Power BI
 
-My complete implementation of assignments and projects in [***CS224n: Natural Language Processing with Deep Learning***](http://web.stanford.edu/class/cs224n/) by Stanford (Winter, 2019).
+[![Ver Dashboard](https://img.shields.io/badge/Power_BI-Ver_Dashboard-yellow?logo=PowerBI)](https://github.com/portfolio/ecommerce-sales-dashboard)
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/CS224n-NLP-Solutions/tree/master/assignments/)
+<div style="text-align: justify">Desarrollo de un dashboard completo para el análisis de ventas de una empresa e-commerce. Implementé KPIs clave como revenue, conversion rate y customer acquisition cost. Utilizé DAX para crear medidas calculadas y establecí relaciones entre múltiples tablas. El dashboard incluye filtros interactivos por período, región y categoría de producto, permitiendo drill-down para análisis detallado.</div>
 
-**Neural Machine Translation:** An NMT system which translates texts from Spanish to English using a Bidirectional LSTM encoder for the source sentence and a Unidirectional LSTM Decoder with multiplicative attention for the target sentence ([GitHub](https://github.com/chriskhanhtran/CS224n-NLP-Solutions/tree/master/assignments/)).
-
-**Dependency Parsing:** A Neural Transition-Based Dependency Parsing system with one-layer MLP ([GitHub](https://github.com/chriskhanhtran/CS224n-NLP-Assignments/tree/master/assignments/a3)).
-
-<center><img src="images/nlp.png"/></center>
+<center><img src="images/ecommerce-dashboard.png"/></center>
 
 ---
-### Detect Non-negative Airline Tweets: BERT for Sentiment Analysis
+### Análisis de Retención de Clientes: Cohorte Analysis con Python
 
-[![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1f32gj5IYIyFipoINiC8P3DvKat-WWLUK)
+[![Abrir Notebook](https://img.shields.io/badge/Jupyter-Abrir_Notebook-blue?logo=Jupyter)](projects/customer-retention-analysis.html)
+[![Ver en GitHub](https://img.shields.io/badge/GitHub-Ver_en_GitHub-blue?logo=GitHub)](https://github.com/portfolio/customer-retention-cohort-analysis)
 
-<div style="text-align: justify">The release of Google's BERT is described as the beginning of a new era in NLP. In this notebook I'll use the HuggingFace's transformers library to fine-tune pretrained BERT model for a classification task. Then I will compare BERT's performance with a baseline model, in which I use a TF-IDF vectorizer and a Naive Bayes classifier. The transformers library helps us quickly and efficiently fine-tune the state-of-the-art BERT model and yield an accuracy rate 10% higher than the baseline model.</div>
-
-<center><img src="images/BERT-classification.png"/></center>
-
----
-### Detect Food Trends from Facebook Posts: Co-occurence Matrix, Lift and PPMI
-
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/detect-food-trends-facebook.html)
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/facebook-detect-food-trends)
-
-<div style="text-align: justify">First I build co-occurence matrices of ingredients from Facebook posts from 2011 to 2015. Then, to identify interesting and rare ingredient combinations that occur more than by chance, I calculate Lift and PPMI metrics. Lastly, I plot time-series data of identified trends to validate my findings. Interesting food trends have emerged from this analysis.</div>
+<div style="text-align: justify">Análisis completo de retención de clientes utilizando técnicas de cohorte analysis. Procesé datos de transacciones con pandas, calculé tasas de retención mensuales y visualicé los resultados con heatmaps usando matplotlib y seaborn. Identifiqué patrones de comportamiento que permitieron proponer estrategias para mejorar la retención en un 15%.</div>
 <br>
-<center><img src="images/fb-food-trends.png"></center>
+<center><img src="images/cohort-analysis.png"></center>
 <br>
 
 ---
-### Detect Spam Messages: TF-IDF and Naive Bayes Classifier
+### Optimización de Inventario: Análisis ABC y Forecasting
 
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/detect-spam-nlp.html)
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/detect-spam-messages-nlp/blob/master/detect-spam-nlp.ipynb)
+[![Abrir Notebook](https://img.shields.io/badge/Jupyter-Abrir_Notebook-blue?logo=Jupyter)](projects/inventory-optimization.html)
+[![Ver en GitHub](https://img.shields.io/badge/GitHub-Ver_en_GitHub-blue?logo=GitHub)](https://github.com/portfolio/inventory-abc-forecasting)
 
-<div style="text-align: justify">In order to predict whether a message is spam, first I vectorized text messages into a format that machine learning algorithms can understand using Bag-of-Word and TF-IDF. Then I trained a machine learning model to learn to discriminate between normal and spam messages. Finally, with the trained model, I classified unlabel messages into normal or spam.</div>
+<div style="text-align: justify">Implementé análisis ABC para clasificación de productos y desarrollé modelos de forecasting usando técnicas de series temporales. Utilicé SQL para extraer datos de ventas históricas y Python para el análisis estadístico. Los insights obtenidos permitieron optimizar niveles de stock y reducir costos de almacenamiento en un 20%.</div>
 <br>
-<center><img src="images/detect-spam-nlp.png"/></center>
-<br>
-
----
-## Data Science
-
-### Credit Risk Prediction Web App
-
-[![Open Web App](https://img.shields.io/badge/Heroku-Open_Web_App-blue?logo=Heroku)](http://credit-risk.herokuapp.com/)
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://github.com/chriskhanhtran/credit-risk-prediction/blob/master/documents/Notebook.ipynb)
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/credit-risk-prediction)
-
-<div style="text-align: justify">After my team preprocessed a dataset of 10K credit applications and built machine learning models to predict credit default risk, I built an interactive user interface with Streamlit and hosted the web app on Heroku server.</div>
-<br>
-<center><img src="images/credit-risk-webapp.png"/></center>
+<center><img src="images/inventory-analysis.png"/></center>
 <br>
 
 ---
-### Kaggle Competition: Predict Ames House Price using Lasso, Ridge, XGBoost and LightGBM
+## Análisis Exploratorio de Datos
 
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/ames-house-price.html)
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/kaggle-house-price/blob/master/ames-house-price.ipynb)
+### Análisis del Mercado Inmobiliario: EDA con Python
 
-<div style="text-align: justify">I performed comprehensive EDA to understand important variables, handled missing values, outliers, performed feature engineering, and ensembled machine learning models to predict house prices. My best model had Mean Absolute Error (MAE) of 12293.919, ranking <b>95/15502</b>, approximately <b>top 0.6%</b> in the Kaggle leaderboard.</div>
+[![Abrir Notebook](https://img.shields.io/badge/Jupyter-Abrir_Notebook-blue?logo=Jupyter)](projects/real-estate-eda.html)
+[![Ver en GitHub](https://img.shields.io/badge/GitHub-Ver_en_GitHub-blue?logo=GitHub)](https://github.com/portfolio/real-estate-market-analysis)
+
+<div style="text-align: justify">Análisis exploratorio completo de datos inmobiliarios utilizando pandas, numpy y matplotlib. Realicé limpieza de datos, tratamiento de valores faltantes y outliers. Calculé estadísticas descriptivas, correlaciones entre variables y creé visualizaciones para identificar factores que influyen en los precios de viviendas.</div>
 <br>
-<center><img src="images/ames-house-price.jpg"/></center>
-<br>
-
----
-### Predict Breast Cancer with RF, PCA and SVM using Python
-
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/breast-cancer.html)
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/predict-breast-cancer-with-rf-pca-svm/blob/master/breast-cancer.ipynb)
-
-<div style="text-align: justify">In this project I am going to perform comprehensive EDA on the breast cancer dataset, then transform the data using Principal Components Analysis (PCA) and use Support Vector Machine (SVM) model to predict whether a patient has breast cancer.</div>
-<br>
-<center><img src="images/breast-cancer.png"/></center>
+<center><img src="images/real-estate-eda.png"/></center>
 <br>
 
 ---
-### Business Analytics Conference 2018: How is NYC's Government Using Money?
+### Segmentación de Clientes: RFM Analysis y Clustering
 
-[![Open Research Poster](https://img.shields.io/badge/PDF-Open_Research_Poster-blue?logo=adobe-acrobat-reader&logoColor=white)](pdf/bac2018.pdf)
+[![Abrir Notebook](https://img.shields.io/badge/Jupyter-Abrir_Notebook-blue?logo=Jupyter)](projects/customer-segmentation.html)
+[![Ver en GitHub](https://img.shields.io/badge/GitHub-Ver_en_GitHub-blue?logo=GitHub)](https://github.com/portfolio/customer-rfm-clustering)
 
-<div style="text-align: justify">In three-month research and a two-day hackathon, I led a team of four students to discover insights from 6 million records of NYC and Boston government spending data sets and won runner-up prize for the best research poster out of 18 participating colleges.</div>
+<div style="text-align: justify">Implementé análisis RFM (Recency, Frequency, Monetary) para segmentación de clientes utilizando Python. Apliqué técnicas de clustering con K-means para identificar grupos de clientes con comportamientos similares. Los resultados permitieron desarrollar estrategias de marketing personalizadas para cada segmento.</div>
 <br>
-<center><img src="images/bac2018.JPG"/></center>
+<center><img src="images/customer-segmentation.png"/></center>
 <br>
 
 ---
-## Filmed by me
+### Análisis de Tendencias de Redes Sociales: Web Scraping y Sentiment Analysis
 
-[![View My Films](https://img.shields.io/badge/YouTube-View_My_Films-grey?logo=youtube&labelColor=FF0000)](https://www.youtube.com/watch?v=vfZwdEWgUPE)
+[![Abrir Notebook](https://img.shields.io/badge/Jupyter-Abrir_Notebook-blue?logo=Jupyter)](projects/social-media-trends.html)
+[![Ver en GitHub](https://img.shields.io/badge/GitHub-Ver_en_GitHub-blue?logo=GitHub)](https://github.com/portfolio/social-media-sentiment-analysis)
 
-<div style="text-align: justify">Besides Data Science, I also have a great passion for photography and videography. Below is a list of films I documented to retain beautiful memories of places I traveled to and amazing people I met on the way.</div>
+<div style="text-align: justify">Desarrollé un sistema automatizado para extraer y analizar sentimientos en redes sociales usando Python. Implementé web scraping con BeautifulSoup, procesamiento de texto con NLTK y análisis de sentimientos. Creé visualizaciones temporales para identificar tendencias y picos de engagement.</div>
+<br>
+<center><img src="images/sentiment-analysis.png"/></center>
 <br>
 
-- [Ada Von Weiss - You Regret (Winter at Niagara)](https://www.youtube.com/watch?v=-5esqvmPnHI)
-- [The Weight We Carry is Love - TORONTO](https://www.youtube.com/watch?v=vfZwdEWgUPE)
-- [In America - Boston 2017](https://www.youtube.com/watch?v=YdXufiebgyc)
-- [In America - We Call This Place Our Home (Massachusetts)](https://www.youtube.com/watch?v=jzfcM_iO0FU)
+---
+## SQL y Bases de Datos
+
+### Análisis de Rendimiento de Ventas: Consultas SQL Avanzadas
+
+[![Ver Consultas](https://img.shields.io/badge/SQL-Ver_Consultas-orange?logo=MySQL)](https://github.com/portfolio/sales-performance-sql)
+
+<div style="text-align: justify">Desarrollo de consultas SQL complejas para análisis de rendimiento de ventas. Implementé window functions, CTEs y subconsultas para calcular métricas de crecimiento interanual, rankings de vendedores y análisis comparativos. Optimicé queries para mejorar el performance en bases de datos de gran volumen.</div>
+
+```sql
+-- Ejemplo: Análisis de crecimiento YoY por región
+WITH sales_by_month AS (
+    SELECT 
+        region,
+        EXTRACT(YEAR FROM order_date) as year,
+        EXTRACT(MONTH FROM order_date) as month,
+        SUM(total_sales) as monthly_sales
+    FROM sales_data 
+    GROUP BY region, year, month
+),
+growth_analysis AS (
+    SELECT 
+        region,
+        year,
+        month,
+        monthly_sales,
+        LAG(monthly_sales, 12) OVER (
+            PARTITION BY region 
+            ORDER BY year, month
+        ) as prev_year_sales,
+        ROUND(
+            (monthly_sales - LAG(monthly_sales, 12) OVER (
+                PARTITION BY region 
+                ORDER BY year, month
+            )) / LAG(monthly_sales, 12) OVER (
+                PARTITION BY region 
+                ORDER BY year, month
+            ) * 100, 2
+        ) as yoy_growth_percent
+    FROM sales_by_month
+)
+SELECT * FROM growth_analysis
+WHERE prev_year_sales IS NOT NULL
+ORDER BY region, year, month;
+```
 
 ---
-<center>© 2025 Augusto Dos Santos. Powered by Jekyll and the Minimal Theme.</center>
+### ETL Pipeline: Automatización de Procesos de Datos
+
+[![Ver en GitHub](https://img.shields.io/badge/GitHub-Ver_en_GitHub-blue?logo=GitHub)](https://github.com/portfolio/etl-pipeline-python-sql)
+
+<div style="text-align: justify">Diseñé y implementé un pipeline ETL automatizado usando Python y SQL para procesar datos de múltiples fuentes. El sistema incluye validación de calidad de datos, transformaciones complejas y carga incremental. Implementé logging y manejo de errores para garantizar la confiabilidad del proceso.</div>
+<br>
+<center><img src="images/etl-pipeline.png"/></center>
+<br>
+
+---
+## Power BI y Visualización
+
+### Dashboard Financiero: Control de Gastos y Presupuestos
+
+[![Ver Dashboard](https://img.shields.io/badge/Power_BI-Ver_Dashboard-yellow?logo=PowerBI)](https://github.com/portfolio/financial-control-dashboard)
+
+<div style="text-align: justify">Desarrollo de un dashboard financiero completo con KPIs de control presupuestario, análisis de variaciones y proyecciones. Implementé medidas DAX avanzadas para cálculos de desviaciones, utilizé bookmarks para navegación y creé alertas automáticas para gastos que excedan el presupuesto.</div>
+<br>
+<center><img src="images/financial-dashboard.png"/></center>
+<br>
+
+---
+### Análisis de Recursos Humanos: Dashboard de Talento y Performance
+
+[![Ver Dashboard](https://img.shields.io/badge/Power_BI-Ver_Dashboard-yellow?logo=PowerBI)](https://github.com/portfolio/hr-analytics-dashboard)
+
+<div style="text-align: justify">Dashboard integral para análisis de RRHH incluyendo métricas de rotación, satisfacción laboral, performance reviews y análisis salarial. Utilicé Power Query para limpieza de datos y creé visualizaciones interactivas que permiten análisis por departamento, antigüedad y nivel jerárquico.</div>
+<br>
+<center><img src="images/hr-dashboard.png"/></center>
+<br>
+
+---
+## Habilidades Técnicas
+
+### Lenguajes y Herramientas
+- **Python**: pandas, numpy, matplotlib, seaborn, scikit-learn, NLTK
+- **SQL**: PostgreSQL, MySQL, consultas complejas, optimización, window functions
+- **Power BI**: DAX, Power Query, modelado de datos, dashboards interactivos
+- **Excel**: Tablas dinámicas, funciones avanzadas, VBA básico
+- **Herramientas**: Git, Jupyter Notebooks, VS Code
+
+### Competencias Clave
+- **Análisis Exploratorio de Datos (EDA)**: Limpieza, transformación y análisis estadístico
+- **Visualización de Datos**: Creación de dashboards y reportes ejecutivos
+- **Business Intelligence**: Desarrollo de KPIs y métricas de negocio
+- **Bases de Datos**: Diseño, consultas y optimización
+- **Automatización**: Scripts para procesos ETL y reporting automático
+
+---
+## Certificaciones y Formación
+
+- **Microsoft Power BI Data Analyst (PL-300)** - *En progreso*
+- **Google Data Analytics Professional Certificate** - *Completado 2024*
+- **SQL for Data Science** - *Coursera, 2024*
+- **Python for Data Analysis** - *DataCamp, 2024*
+
+---
+## Sobre mí
+
+<div style="text-align: justify">
+Soy un analista de datos junior apasionado por transformar datos en insights accionables para el negocio. Mi enfoque se centra en comprender las necesidades del negocio y traducir preguntas complejas en análisis claros y visualizaciones efectivas. 
+
+Tengo experiencia trabajando con datasets de diferentes industrias y me especializo en crear soluciones escalables que pueden ser fácilmente adoptadas por equipos no técnicos. Mi objetivo es contribuir al crecimiento de la organización mediante decisiones basadas en datos.
+
+Busco oportunidades donde pueda aplicar mis habilidades en Python, SQL y Power BI para generar valor real para el negocio, mientras continúo desarrollándome profesionalmente en el campo del análisis de datos.
+</div>
+
+---
+## Contacto
+
+📧 **Email**: [dossantosaugusto36@gmail.com](mailto:mi.email@ejemplo.com)  
+💼 **LinkedIn**: [https://www.linkedin.com/in/augusto-dos-santos-a226622b6/](https://www.linkedin.com/in/augusto-dos-santos-a226622b6/)  
+🐙 **GitHub**: [github.com/augustosz](https://github.com/augustosz)  
+📍 **Ubicación**: Paraná, Entre Ríos, Argentina
+
+---
+<center>© 2025 [Augusto Dos Santos]. Portfolio de Analista de Datos Junior.</center>
