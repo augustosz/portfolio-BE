@@ -165,21 +165,9 @@ ORDER BY region, year, month;
 ---
 ## Certificaciones y Formación
 
-- **Microsoft Power BI Data Analyst (PL-300)** - *En progreso*
-- **Google Data Analytics Professional Certificate** - *Completado 2024*
-- **SQL for Data Science** - *Coursera, 2024*
-- **Python for Data Analysis** - *DataCamp, 2024*
-
----
-## Sobre mí
-
-<div style="text-align: justify">
-Soy un analista de datos junior apasionado por transformar datos en insights accionables para el negocio. Mi enfoque se centra en comprender las necesidades del negocio y traducir preguntas complejas en análisis claros y visualizaciones efectivas. 
-
-Tengo experiencia trabajando con datasets de diferentes industrias y me especializo en crear soluciones escalables que pueden ser fácilmente adoptadas por equipos no técnicos. Mi objetivo es contribuir al crecimiento de la organización mediante decisiones basadas en datos.
-
-Busco oportunidades donde pueda aplicar mis habilidades en Python, SQL y Power BI para generar valor real para el negocio, mientras continúo desarrollándome profesionalmente en el campo del análisis de datos.
-</div>
+- **Tecnicatura en analisis de sistemas informaticos** - *Completado 2024*
+- **SQL avanzado** - *Udemy, 2024*
+- **Python para ciencia de datos** - *Silicon Misiones, 2024*
 
 ---
 ## Contacto
