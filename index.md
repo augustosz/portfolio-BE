@@ -2,11 +2,9 @@
 
 ## Desarrollo de APIs y Sistemas Backend
 
-### API de Ventas E-commerce con Integración BI  
-[![Ver Código](https://img.shields.io/badge/GitHub-Ver_Código-blue?logo=GitHub)](https://github.com/portfolio/backend-ecommerce-api)  
-Desarrollo de API REST en **FastAPI** que conecta con una base de datos **PostgreSQL**, aplicando consultas optimizadas y funciones de agregación para KPIs como *revenue*, *conversion rate* y *customer acquisition cost*.  
-Incluye autenticación con JWT, paginación, filtrado avanzado y endpoints para exportar datos hacia **Power BI**.
-
+### API REST - Sistema de Gestión de Tareas 
+[![Ver Código](https://img.shields.io/badge/GitHub-Ver_Código-blue?logo=GitHub)](https://github.com/augustosz/taskManagment)  
+**API REST robusta para gestión de tareas** desarrollada con MySQL, Node.js y Express, implementando autenticación segura y operaciones CRUD completas. El sistema permite a los usuarios registrarse, autenticarse y administrar sus tareas personales con diferentes estados y prioridades
 <br>
 <center><img src="./images/image.png"/></center>
 <br>
