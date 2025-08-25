@@ -8,7 +8,7 @@ Desarrollo de API REST en **FastAPI** que conecta con una base de datos **Postgr
 Incluye autenticación con JWT, paginación, filtrado avanzado y endpoints para exportar datos hacia **Power BI**.
 
 <br>
-<center><img src="image.png"/></center>
+<center><img src="./images/image.png"/></center>
 <br>
 
 ---
