@@ -7,6 +7,10 @@
 Desarrollo de API REST en **FastAPI** que conecta con una base de datos **PostgreSQL**, aplicando consultas optimizadas y funciones de agregación para KPIs como *revenue*, *conversion rate* y *customer acquisition cost*.  
 Incluye autenticación con JWT, paginación, filtrado avanzado y endpoints para exportar datos hacia **Power BI**.
 
+<br>
+<center><img src="image.png"/></center>
+<br>
+
 ---
 
 ### Sistema de Retención de Clientes – API + Batch Processing  
