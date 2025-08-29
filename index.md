@@ -61,7 +61,7 @@ API **Node.js** con **Express**, integración con **TypeScript** y **PostgreSQL*
 
 ### SQL Avanzado para Grandes Volúmenes de Datos
 
-[![Ver Código](https://img.shields.io/badge/GitHub-Ver_C%C3%B3digo-blue?logo=GitHub)](https://github.com/augustosz/consultas/blob/master/querys.sql)
+[![Ver Código](https://img.shields.io/badge/GitHub-Ver_C%C3%B3digo-blue?logo=GitHub)](https://github.com/augustosz/consultas)
 
 Optimización de consultas **SQL** con **CTEs**, **window functions** y creación de índices para mejorar el rendimiento en bases de datos con millones de registros. Incluye la aplicación de estrategias de particionado y uso de `EXPLAIN ANALYZE` para monitoreo de performance.
 
