@@ -11,10 +11,12 @@
 
 ---
 
-### Sistema de Retención de Clientes – API + Batch Processing  
-[![Ver Código](https://img.shields.io/badge/GitHub-Ver_Código-blue?logo=GitHub)](https://github.com/portfolio/customer-retention-api)  
-Implementación de un servicio backend que procesa datos de transacciones en lote usando **Python** y **pandas**, generando métricas de retención y segmentación de clientes.  
-Resultados accesibles vía API REST y almacenados en PostgreSQL para integración con aplicaciones externas.
+### Sistema de Blogs  
+[![Ver Código](https://img.shields.io/badge/GitHub-Ver_Código-blue?logo=GitHub)](https://github.com/augustosz/sistemaDeBlogs)  
+Es una API backend para un sistema de blog que permite:Autenticación de usuarios (registro/login), Gestión de posts (crear, leer, actualizar, eliminar), Sistema de comentarios en los posts, Categorización de contenido, Base de datos MongoDB para persistencia
+<br>
+<center><img src="./images/image1.png"/></center>
+<br>
 
 ---
 
