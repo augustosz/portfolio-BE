@@ -22,6 +22,7 @@ Es una API backend para un sistema de blog que permite:Autenticación de usuario
 
 ### Gestión y Forecasting de Inventario – Microservicio de Predicción  
 [![Ver Código](https://img.shields.io/badge/GitHub-Ver_Código-blue?logo=GitHub)](https://github.com/augustosz/gym-repo) [![Ver Documentación](https://img.shields.io/badge/Docs-Ver_Documentación-green?logo=gitbook)](https://drive.google.com/drive/folders/1gYDL0S_wEO79aIkFAsKQJMc7MNpJwEcP)
+
 Este sistema fue diseñado como proyecto final de carrera de sistemas y funciona para la administración eficiente de un gimnasio, proporcionando herramientas para la gestión de usuarios, membresías, horarios y más. A continuación, se detallan sus principales módulos:
 1. Registro de Usuarios y Contraseñas
 Permite el registro seguro de usuarios con autenticación y control de accesos.
