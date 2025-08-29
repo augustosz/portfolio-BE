@@ -2,7 +2,7 @@
 
 ## Desarrollo de APIs y Sistemas Backend
 
-### API REST - Sistema de Gestión de Tareas
+### API REST - sistema de gestión de tareas
 
 [![Ver Código](https://img.shields.io/badge/GitHub-Ver_C%C3%B3digo-blue?logo=GitHub)](https://github.com/augustosz/taskManagment)
 
@@ -14,7 +14,7 @@
 
 ---
 
-### Sistema de Blogs
+### Sistema de blogs
 
 [![Ver Código](https://img.shields.io/badge/GitHub-Ver_C%C3%B3digo-blue?logo=GitHub)](https://github.com/augustosz/sistemaDeBlogs)
 
@@ -32,7 +32,7 @@
 
 ---
 
-### Sistema de Gimnasios con GUI
+### Sistema de gimnasios completo
 
 [![Ver Código](https://img.shields.io/badge/GitHub-Ver_C%C3%B3digo-blue?logo=GitHub)](https://github.com/augustosz/gym-repo) [![Ver Documentación](https://img.shields.io/badge/Docs-Ver_Documentaci%C3%B3n-green?logo=gitbook)](https://drive.google.com/drive/folders/1gYDL0S_wEO79aIkFAsKQJMc7MNpJwEcP)
 
@@ -51,15 +51,19 @@ Este sistema, diseñado como proyecto final de carrera, utiliza tecnologías com
 
 ---
 
-### API REST para Almacenar Libros
+### NODE JS: API REST (CRUD) con PostgreSQL y JWT
 
 [![Ver Código](https://img.shields.io/badge/GitHub-Ver_C%C3%B3digo-blue?logo=GitHub)](https://github.com/portfolio/etl-pipeline-python-sql)
 
-API **Node.js** con **Express**, integración con **TypeScript** y **PostgreSQL** como base de datos. Está integrada con **Docker** para un despliegue rápido.
+API REST con **Node.js**, **TypeScript** y **PostgreSQL** para gestionar usuarios mediante CRUD, con autenticación segura vía **JWT**. Se desarrolló usando **Express** y **Prisma ORM**, y se despliega fácilmente con **Docker**.
+
+<p align="center">
+  <img src="./images/image3.png" alt="Imagen del proyecto: Sistema de Gimnasios con GUI">
+</p>
 
 ---
 
-### SQL Avanzado para Grandes Volúmenes de Datos
+### SQL avanzado para grandes volúmenes de datos
 
 [![Ver Código](https://img.shields.io/badge/GitHub-Ver_C%C3%B3digo-blue?logo=GitHub)](https://github.com/augustosz/consultas)
 
@@ -118,4 +122,4 @@ ORDER BY nivel, nombre;
 
 ---
 
-<center>© 2025 [Augusto Dos Santos]. Portfolio de Analista de Datos Junior.</center>
+<center>© 2025 Augusto Dos Santos. Portfolio de backend junior.</center>
