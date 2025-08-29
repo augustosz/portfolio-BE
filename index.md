@@ -11,20 +11,13 @@
 <p align="center">
   <img src="./images/image.png" alt="Imagen del proyecto: Sistema de Gestión de Tareas">
 </p>
-
 ---
 
 ### Sistema de blogs
 
 [![Ver Código](https://img.shields.io/badge/GitHub-Ver_C%C3%B3digo-blue?logo=GitHub)](https://github.com/augustosz/sistemaDeBlogs)
 
-**API backend** para un sistema de blog que permite:
-
-- Autenticación de usuarios (registro/login)
-- Gestión de posts (crear, leer, actualizar, eliminar)
-- Sistema de comentarios en los posts
-- Categorización de contenido
-- Base de datos **MongoDB** para persistencia
+**API backend** para un sistema de blog que permite:autenticación de usuarios (registro/login), gestión de posts (crear, leer, actualizar, eliminar), sistema de comentarios en los posts, categorización de contenido, base de datos **MongoDB** para persistencia
 
 <p align="center">
   <img src="./images/image1.png" alt="Imagen del proyecto: Sistema de Blogs">
