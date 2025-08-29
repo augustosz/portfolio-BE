@@ -2,7 +2,8 @@
 
 ## Desarrollo de APIs y Sistemas Backend
 
-### 💻 API REST - Sistema de Gestión de Tareas
+### API REST - Sistema de Gestión de Tareas
+
 [![Ver Código](https://img.shields.io/badge/GitHub-Ver_C%C3%B3digo-blue?logo=GitHub)](https://github.com/augustosz/taskManagment)
 
 **API REST** robusta para gestión de tareas desarrollada con **MySQL**, **Node.js** y **Express**. Implementa autenticación segura y operaciones **CRUD** completas. El sistema permite a los usuarios registrarse, autenticarse y administrar sus tareas personales con diferentes estados y prioridades.
@@ -13,15 +14,17 @@
 
 ---
 
-### 📝 Sistema de Blogs
+### Sistema de Blogs
+
 [![Ver Código](https://img.shields.io/badge/GitHub-Ver_C%C3%B3digo-blue?logo=GitHub)](https://github.com/augustosz/sistemaDeBlogs)
 
 **API backend** para un sistema de blog que permite:
-* Autenticación de usuarios (registro/login)
-* Gestión de posts (crear, leer, actualizar, eliminar)
-* Sistema de comentarios en los posts
-* Categorización de contenido
-* Base de datos **MongoDB** para persistencia
+
+- Autenticación de usuarios (registro/login)
+- Gestión de posts (crear, leer, actualizar, eliminar)
+- Sistema de comentarios en los posts
+- Categorización de contenido
+- Base de datos **MongoDB** para persistencia
 
 <p align="center">
   <img src="./images/image1.png" alt="Imagen del proyecto: Sistema de Blogs">
@@ -29,7 +32,8 @@
 
 ---
 
-### 🏋️‍♂️ Sistema de Gimnasios con GUI
+### Sistema de Gimnasios con GUI
+
 [![Ver Código](https://img.shields.io/badge/GitHub-Ver_C%C3%B3digo-blue?logo=GitHub)](https://github.com/augustosz/gym-repo) [![Ver Documentación](https://img.shields.io/badge/Docs-Ver_Documentaci%C3%B3n-green?logo=gitbook)](https://drive.google.com/drive/folders/1gYDL0S_wEO79aIkFAsKQJMc7MNpJwEcP)
 
 Este sistema, diseñado como proyecto final de carrera, utiliza tecnologías como **MySQL**, **PHP** y **BOOTSTRAP** para la administración eficiente de un gimnasio. Proporciona herramientas para la gestión de usuarios, membresías, horarios y más. A continuación, se detallan sus principales módulos:
@@ -45,45 +49,79 @@ Este sistema, diseñado como proyecto final de carrera, utiliza tecnologías com
   <img src="./images/image2.png" alt="Imagen del proyecto: Sistema de Gimnasios con GUI">
 </p>
 
+<div id="carousel-gym" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-gym" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-gym" data-slide-to="1"></li>
+            <li data-target="#carousel-gym" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/image2.png" class="d-block w-100" alt="Vista 1 del sistema de gimnasio">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/gym-screenshot-2.png" class="d-block w-100" alt="Vista 2 del sistema de gimnasio">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/gym-screenshot-3.png" class="d-block w-100" alt="Vista 3 del sistema de gimnasio">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carousel-gym" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel-gym" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+          </a>
+        </div>
+        `;
+
 ---
 
-### 📚 API REST para Almacenar Libros
+### API REST para Almacenar Libros
+
 [![Ver Código](https://img.shields.io/badge/GitHub-Ver_C%C3%B3digo-blue?logo=GitHub)](https://github.com/portfolio/etl-pipeline-python-sql)
 
 API **Node.js** con **Express**, integración con **TypeScript** y **PostgreSQL** como base de datos. Está integrada con **Docker** para un despliegue rápido.
 
 ---
 
-### 📊 SQL Avanzado para Grandes Volúmenes de Datos
+### SQL Avanzado para Grandes Volúmenes de Datos
+
 [![Ver Código](https://img.shields.io/badge/GitHub-Ver_C%C3%B3digo-blue?logo=GitHub)](https://github.com/portfolio/sales-performance-sql)
 
 Optimización de consultas **SQL** con **CTEs**, **window functions** y creación de índices para mejorar el rendimiento en bases de datos con millones de registros. Incluye la aplicación de estrategias de particionado y uso de `EXPLAIN ANALYZE` para monitoreo de performance.
 
-## Habilidades Técnicas  
+## Habilidades Técnicas
 
-**Lenguajes y Frameworks**  
-- **Backend**: Python (FastAPI, Django REST Framework), Node.js (Express)  
-- **Bases de Datos**: PostgreSQL, MySQL, MongoDB  
-- **ETL y Procesamiento de Datos**: pandas, SQLAlchemy, Airflow (básico)  
-- **Testing**: Pytest, Postman para pruebas de APIs  
-- **Contenedores y Despliegue**: Docker, Docker Compose  
-- **Versionado y Colaboración**: Git, GitHub, GitFlow  
+**Lenguajes y Frameworks**
 
-**Competencias Clave**  
-- Desarrollo y consumo de APIs REST  
-- Integración de datos y automatización de procesos  
-- Modelado y optimización de bases de datos  
-- Seguridad en backend (JWT, manejo de credenciales, CORS)  
-- Buenas prácticas de código y documentación  
+- **Backend**: Python (FastAPI, Django REST Framework), Node.js (Express)
+- **Bases de Datos**: PostgreSQL, MySQL, MongoDB
+- **ETL y Procesamiento de Datos**: pandas, SQLAlchemy, Airflow (básico)
+- **Testing**: Pytest, Postman para pruebas de APIs
+- **Contenedores y Despliegue**: Docker, Docker Compose
+- **Versionado y Colaboración**: Git, GitHub, GitFlow
+
+**Competencias Clave**
+
+- Desarrollo y consumo de APIs REST
+- Integración de datos y automatización de procesos
+- Modelado y optimización de bases de datos
+- Seguridad en backend (JWT, manejo de credenciales, CORS)
+- Buenas prácticas de código y documentación
 
 ---
+
 ## Certificaciones y Formación
 
-- **Tecnicatura en analisis de sistemas informaticos** - *Completado 2024*
-- **SQL avanzado** - *Udemy, 2024*
-- **Python para ciencia de datos** - *Silicon Misiones, 2024*
+- **Tecnicatura en analisis de sistemas informaticos** - _Completado 2024_
+- **SQL avanzado** - _Udemy, 2024_
+- **Python para ciencia de datos** - _Silicon Misiones, 2024_
 
 ---
+
 ## Contacto
 
 📧 **Email**: [dossantosaugusto36@gmail.com](mailto:mi.email@ejemplo.com)  
@@ -92,4 +130,5 @@ Optimización de consultas **SQL** con **CTEs**, **window functions** y creació
 📍 **Ubicación**: Paraná, Entre Ríos, Argentina
 
 ---
+
 <center>© 2025 [Augusto Dos Santos]. Portfolio de Analista de Datos Junior.</center>
