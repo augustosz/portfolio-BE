@@ -1,4 +1,4 @@
-# Portfolio – Desarrollador Back-End
+# Portfolio
 
 ## Desarrollo de APIs y Sistemas Backend
 
