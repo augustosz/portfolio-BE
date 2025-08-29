@@ -49,18 +49,27 @@ Este sistema, diseñado como proyecto final de carrera, utiliza tecnologías com
   <img src="./images/image2.png" alt="Imagen del proyecto: Sistema de Gimnasios con GUI">
 </p>
 
-<div id="carousel-gym" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./images/image2.png" class="d-block w-100" alt="Vista 1 del sistema de gimnasio">
-            </div>
-            <div class="carousel-item">
-              <img src="./images/image.png" class="d-block w-100" alt="Vista 2 del sistema de gimnasio">
-            </div>
-            <div class="carousel-item">
-              <img src="./images/image1.png" class="d-block w-100" alt="Vista 3 del sistema de gimnasio">
-            </div>
-          </div>
+<!-- Carrusel -->
+<div id="gymCarousel" class="carousel slide" data-bs-ride="carousel" style="max-width:600px; margin:auto;">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images/image2.png" class="d-block w-100" alt="Imagen 1">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/image1.png" class="d-block w-100" alt="Imagen 2">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/image.png" class="d-block w-100" alt="Imagen 3">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#gymCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#gymCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
 </div>
 
 ---
