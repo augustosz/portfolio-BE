@@ -60,10 +60,10 @@ Este sistema, diseñado como proyecto final de carrera, utiliza tecnologías com
               <img src="./images/image2.png" class="d-block w-100" alt="Vista 1 del sistema de gimnasio">
             </div>
             <div class="carousel-item">
-              <img src="./images/gym-screenshot-2.png" class="d-block w-100" alt="Vista 2 del sistema de gimnasio">
+              <img src="./images/image.png" class="d-block w-100" alt="Vista 2 del sistema de gimnasio">
             </div>
             <div class="carousel-item">
-              <img src="./images/gym-screenshot-3.png" class="d-block w-100" alt="Vista 3 del sistema de gimnasio">
+              <img src="./images/image1.png" class="d-block w-100" alt="Vista 3 del sistema de gimnasio">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carousel-gym" role="button" data-slide="prev">
@@ -75,7 +75,6 @@ Este sistema, diseñado como proyecto final de carrera, utiliza tecnologías com
             <span class="sr-only">Siguiente</span>
           </a>
         </div>
-        `;
 
 ---
 
