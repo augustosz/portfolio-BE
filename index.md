@@ -49,29 +49,6 @@ Este sistema, diseñado como proyecto final de carrera, utiliza tecnologías com
   <img src="./images/image2.png" alt="Imagen del proyecto: Sistema de Gimnasios con GUI">
 </p>
 
-<!-- Carrusel -->
-<div id="gymCarousel" class="carousel slide" data-bs-ride="carousel" style="max-width:600px; margin:auto;">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./images/image2.png" class="d-block w-100" alt="Imagen 1">
-    </div>
-    <div class="carousel-item">
-      <img src="./images/image1.png" class="d-block w-100" alt="Imagen 2">
-    </div>
-    <div class="carousel-item">
-      <img src="./images/image.png" class="d-block w-100" alt="Imagen 3">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#gymCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Anterior</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#gymCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Siguiente</span>
-  </button>
-</div>
-
 ---
 
 ### API REST para Almacenar Libros
@@ -84,9 +61,24 @@ API **Node.js** con **Express**, integración con **TypeScript** y **PostgreSQL*
 
 ### SQL Avanzado para Grandes Volúmenes de Datos
 
-[![Ver Código](https://img.shields.io/badge/GitHub-Ver_C%C3%B3digo-blue?logo=GitHub)](https://github.com/portfolio/sales-performance-sql)
+[![Ver Código](https://img.shields.io/badge/GitHub-Ver_C%C3%B3digo-blue?logo=GitHub)](https://github.com/augustosz/consultas/blob/master/querys.sql)
 
 Optimización de consultas **SQL** con **CTEs**, **window functions** y creación de índices para mejorar el rendimiento en bases de datos con millones de registros. Incluye la aplicación de estrategias de particionado y uso de `EXPLAIN ANALYZE` para monitoreo de performance.
+
+```SQL
+-- CTE recursiva para jerarquía de empleados
+WITH RECURSIVE jerarquia_empleados AS (
+    SELECT id_empleado, nombre, id_jefe, 0 as nivel
+    FROM empleados 
+    WHERE id_jefe IS NULL
+    UNION ALL
+    SELECT e.id_empleado, e.nombre, e.id_jefe, j.nivel + 1
+    FROM empleados e
+    INNER JOIN jerarquia_empleados j ON e.id_jefe = j.id_empleado
+)
+SELECT * FROM jerarquia_empleados
+ORDER BY nivel, nombre;
+```
 
 ## Habilidades Técnicas
 
