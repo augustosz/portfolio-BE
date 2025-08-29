@@ -21,10 +21,29 @@ Es una API backend para un sistema de blog que permite:Autenticación de usuario
 ---
 
 ### Gestión y Forecasting de Inventario – Microservicio de Predicción  
-[![Ver Código](https://img.shields.io/badge/GitHub-Ver_Código-blue?logo=GitHub)](https://github.com/portfolio/inventory-forecasting-service)  
-Microservicio en **Django REST Framework** para análisis ABC y forecasting con modelos de series temporales.  
-Incluye scripts ETL para extracción de datos SQL, normalización y predicción automática de stock, con endpoints seguros para consulta por sistemas ERP.
-
+[![Ver Código](https://img.shields.io/badge/GitHub-Ver_Código-blue?logo=GitHub)](https://github.com/augustosz/gym-repo) [![Ver Documentación](https://img.shields.io/badge/Docs-Ver_Documentación-green?logo=gitbook)](https://drive.google.com/drive/folders/1gYDL0S_wEO79aIkFAsKQJMc7MNpJwEcP)
+Este sistema fue diseñado como proyecto final de carrera de sistemas y funciona para la administración eficiente de un gimnasio, proporcionando herramientas para la gestión de usuarios, membresías, horarios y más. A continuación, se detallan sus principales módulos:
+1. Registro de Usuarios y Contraseñas
+Permite el registro seguro de usuarios con autenticación y control de accesos.
+Gestión de roles y permisos según funciones y responsabilidades.
+2. Registro de Clientes
+Almacena información personal, historial de pagos y planes de entrenamiento.
+Facilita el seguimiento de objetivos y progreso de cada cliente.
+3. Gestión de Membresías y Paquetes
+Creación, modificación y control de diferentes planes de membresía.
+Automatización de renovaciones y vencimientos.
+4. Gestión de Horarios y Reservas
+Organización de clases, entrenamientos y actividades.
+Sistema de reservas para clientes y personal, optimizando el uso de espacios.
+5. Generación de Informes
+Creación de reportes detallados sobre membresías, ventas e inventario.
+Análisis de desempeño financiero y otros indicadores clave.
+6. Gestión de Entrenadores y Personal
+Administración de horarios, especialidades y asignaciones del personal.
+Asegura la disponibilidad de entrenadores según la demanda de clientes.
+<br>
+<center><img src="./images/image2.png"/></center>
+<br>
 ---
 
 ## ETL, Integraciones y Optimización de Consultas
