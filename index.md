@@ -83,7 +83,7 @@ ORDER BY nivel, nombre;
 
 - **Backend**: Python (FastAPI, Django REST Framework), Node.js (Express)
 - **Bases de Datos**: PostgreSQL, MySQL, MongoDB
-- **ETL y Procesamiento de Datos**: pandas, SQLAlchemy, Airflow (básico)
+- **ETL y Procesamiento de Datos**: pandas, NumPy, SQLAlchemy, Airflow (básico)
 - **Testing**: Pytest, Postman para pruebas de APIs
 - **Contenedores y Despliegue**: Docker, Docker Compose
 - **Versionado y Colaboración**: Git, GitHub, GitFlow
